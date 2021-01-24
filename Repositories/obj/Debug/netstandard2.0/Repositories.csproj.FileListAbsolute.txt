@@ -1,0 +1,14 @@
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Repositories.deps.json
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Repositories.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Repositories.pdb
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Core.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Shared.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Core.pdb
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\bin\Debug\netstandard2.0\Shared.pdb
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.csprojAssemblyReference.cache
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.AssemblyInfoInputs.cache
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.AssemblyInfo.cs
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.csproj.CoreCompileInputs.cache
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.csproj.CopyComplete
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Repositories\obj\Debug\netstandard2.0\Repositories.pdb
