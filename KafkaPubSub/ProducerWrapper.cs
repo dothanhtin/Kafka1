@@ -1,5 +1,6 @@
 ﻿using Confluent.Kafka;
 using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
 namespace KafkaPubSub
@@ -19,8 +20,14 @@ namespace KafkaPubSub
         }
         public async Task writeMessage(string message)
         {
-            using(var iProducer= this._producer.Build())
+            using (var iProducer = this._producer.Build())
             {
+                //var dr = await iProducer.ProduceAsync(this._topicName, new Message<string, string>()
+                //{
+                //    Key = rand.Next(5).ToString(),
+                //    Value = message
+                //});
+                //Console.WriteLine($"KAFKA => Delivered '{dr.Value}' to '{dr.TopicPartitionOffset}'");
                 try
                 {
                     var dr = await iProducer.ProduceAsync(this._topicName, new Message<string, string>()
@@ -28,13 +35,13 @@ namespace KafkaPubSub
                         Key = rand.Next(5).ToString(),
                         Value = message
                     });
-                    Console.WriteLine($"KAFKA => Delivered '{dr.Value}' to '{dr.TopicPartitionOffset}'");
+                    Debug.WriteLine($"KAFKA => Delivered '{dr.Value}' to '{dr.TopicPartitionOffset}'");
                 }
                 catch (ProduceException<string, string> e)
                 {
-                    Console.WriteLine($"Failed to deliver message: {e.Error.Reason}");
+                    Debug.WriteLine($"Failed to deliver message: {e.Error.Reason}");
                 }
-                iProducer.Flush(TimeSpan.FromSeconds(60));
+                iProducer.Flush(TimeSpan.FromSeconds(60.0));
                 return;
             }
         }

@@ -1,4 +1,5 @@
 ﻿using Confluent.Kafka;
+using Core.IRepositories;
 using Kafka1.Models;
 using KafkaPubSub;
 using Microsoft.Extensions.Hosting;
@@ -11,35 +12,47 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class ProcessOrdersService: BackgroundService
+    public class ProcessOrdersService : BackgroundService
     {
+        private readonly IOrderRepository _orderRepository;
         private readonly ConsumerConfig consumerConfig;
         private readonly ProducerConfig producerConfig;
-        public ProcessOrdersService(ConsumerConfig consumerConfig, ProducerConfig producerConfig)
+        public ProcessOrdersService(ConsumerConfig consumerConfig, ProducerConfig producerConfig, IOrderRepository orderRepository)
         {
             this.producerConfig = producerConfig;
             this.consumerConfig = consumerConfig;
+            _orderRepository = orderRepository;
         }
+
+        [Obsolete]
+#pragma warning disable CS0809 // Obsolete member overrides non-obsolete member
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+#pragma warning restore CS0809 // Obsolete member overrides non-obsolete member
         {
             Console.WriteLine("OrderProcessing Service Started");
-
+            OrderRequest order = new OrderRequest();
             while (!stoppingToken.IsCancellationRequested)
             {
                 var consumerHelper = new ConsumerWrapper(consumerConfig, "orderrequests");
-                string orderRequest = consumerHelper.readMessage();
+                string orderRequest = await consumerHelper.ReadMessage();
 
-                //Deserilaize 
-                OrderRequest order = JsonConvert.DeserializeObject<OrderRequest>(orderRequest);
+                if (!string.IsNullOrEmpty(orderRequest))
+                {
+                    //Deserilaize 
+                    order = JsonConvert.DeserializeObject<OrderRequest>(orderRequest);
 
-                //TODO:: Process Order
-                Console.WriteLine($"Info: OrderHandler => Processing the order for {order.orderId}");
+                    //TODO:: Process Order
+                    Console.WriteLine($"Info: OrderHandler => Processing the order for {order.orderId}");
+                    //Write to database
+                    await _orderRepository.createTestValue(order);
+                }
                 //order.status = OrderStatus.COMPLETED;
 
                 //Write to ReadyToShip Queue
 
-                var producerWrapper = new ProducerWrapper(producerConfig, "readytoship");
-                await producerWrapper.writeMessage(JsonConvert.SerializeObject(order));
+                //var producerWrapper = new ProducerWrapper(producerConfig, "readytoship");
+                //await producerWrapper.writeMessage(JsonConvert.SerializeObject(order));
+
             }
         }
     }

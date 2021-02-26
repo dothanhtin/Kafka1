@@ -54,12 +54,13 @@ namespace Kafka1
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Kafka1", Version = "v1" });
             });
-            services.AddSingleton<HostedServices.IHostedService, ProcessOrdersService>();
+            //services.AddSingleton<HostedServices.IHostedService, ProcessOrdersService>();
+            services.AddHostedService<ProcessOrdersService>();
             //Add services Kafka
-            services.AddSingleton<ProducerConfig>(kafkaConfig.producerConfig);
-            services.AddSingleton<ConsumerConfig>(kafkaConfig.consumerConfig);
+            services.AddSingleton(kafkaConfig.producerConfig);
+            services.AddSingleton(kafkaConfig.consumerConfig);
             //Add services MongoDB
-            services.AddSingleton<MongoDBConfiguration>(mongoDBConfiguration);
+            services.AddSingleton(mongoDBConfiguration);
             //Add services Repositories
             services.AddTransient<IOrderRepository, OrderRepository>();
         }

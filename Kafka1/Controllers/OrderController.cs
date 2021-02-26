@@ -25,7 +25,7 @@ namespace Kafka1.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
             //Serialize 
-            string serializedOrder = JsonConvert.SerializeObject(orderRequest);
+            string serializedOrder = JsonConvert.SerializeObject(orderRequest.getObject());
 
             Console.WriteLine("========");
             Console.WriteLine("Info: OrderController => Post => Recieved a new purchase order:");

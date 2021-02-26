@@ -15,18 +15,19 @@ namespace Repositories.OrderRepository
         private static IMongoDatabase _db;
         public OrderRepository()
         {
-            _db = MongoDBConnection._client.GetDatabase("testdb");
+            _db = MongoDBConnection._client.GetDatabase("testdb1");
         }
         public async Task<int> createTestValue(OrderRequest orderRequest)
         {
             try
             {
                 var col = _db.GetCollection<BsonDocument>("testModelCollection");
-                await col.InsertOneAsync(orderRequest.getBsonObject());
+                var doc = orderRequest.getBsonObject();
+                await col.InsertOneAsync(doc);
 
                 return 1;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return 0;
             }

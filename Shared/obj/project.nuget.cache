@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HLrhaGAzMcyoVhDwMwv6KtbaZ5okbEBW1PeVNZdkyJ5X7NRnbU2WXpNd4I4VMdOdmdh4LtQcrpov7S5j2t84cA==",
+  "dgSpecHash": "oPtKB+7XQSYM91UDGuhflBcXqY6q5QopEDxD7gP/+I1z9Wx+B2sg4B48/12Rb3j9i+jwcfs0ySrx6pvuM/Z/EA==",
   "success": true,
   "projectFilePath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kCP+AchwMvCHGAnshL3t860TbotBkyklZt1H/wQ9yJFWzEl+7+KuOpbY+CEDT02cY/n4iZ1URawP0K/Eq1reaA==",
+  "dgSpecHash": "Nx1sH/7mhwrzuS1hAiKonG3Gyo3JCYwYJzjBr98tDQSqDfbGIOjf2DNFVwQnRb19k3KW7j7i29xHIYkMJjU6WQ==",
   "success": true,
   "projectFilePath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Services\\Services.csproj",
   "expectedPackageFiles": [
