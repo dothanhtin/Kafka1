@@ -12,3 +12,5 @@ D:\.NET Core\Kafka_With_netCore\Kafka1\Services\bin\Debug\netstandard2.0\Core.pd
 D:\.NET Core\Kafka_With_netCore\Kafka1\Services\bin\Debug\netstandard2.0\KafkaPubSub.pdb
 D:\.NET Core\Kafka_With_netCore\Kafka1\Services\obj\Debug\netstandard2.0\Services.csprojAssemblyReference.cache
 D:\.NET Core\Kafka_With_netCore\Kafka1\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
+D:\.NET Core\Kafka_With_netCore\Kafka1\Services\bin\Debug\netstandard2.0\Shared.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Services\bin\Debug\netstandard2.0\Shared.pdb

@@ -131,6 +131,18 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Network": {
+              "target": "Package",
+              "version": "[2.0.2.68, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -184,7 +196,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -325,6 +341,9 @@
               },
               "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\KafkaPubSub\\KafkaPubSub.csproj": {
                 "projectPath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\KafkaPubSub\\KafkaPubSub.csproj"
+              },
+              "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj"
               }
             }
           }
@@ -356,6 +375,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
 ﻿using Confluent.Kafka;
+using Shared.Constants;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

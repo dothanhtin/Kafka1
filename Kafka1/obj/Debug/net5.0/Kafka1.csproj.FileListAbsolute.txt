@@ -65,3 +65,15 @@ D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\obj\Debug\net5.0\Kafka1.pdb
 D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\obj\Debug\net5.0\Kafka1.genruntimeconfig.cache
 D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Services.dll
 D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Services.pdb
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.AspNetCore.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\Kafka1\bin\Debug\net5.0\Serilog.Sinks.Network.dll

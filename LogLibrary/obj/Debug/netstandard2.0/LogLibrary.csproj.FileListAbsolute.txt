@@ -1,0 +1,9 @@
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\bin\Debug\netstandard2.0\LogLibrary.deps.json
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\bin\Debug\netstandard2.0\LogLibrary.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\bin\Debug\netstandard2.0\LogLibrary.pdb
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\obj\Debug\netstandard2.0\LogLibrary.AssemblyInfoInputs.cache
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\obj\Debug\netstandard2.0\LogLibrary.AssemblyInfo.cs
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\obj\Debug\netstandard2.0\LogLibrary.csproj.CoreCompileInputs.cache
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\obj\Debug\netstandard2.0\LogLibrary.dll
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\obj\Debug\netstandard2.0\LogLibrary.pdb
+D:\.NET Core\Kafka_With_netCore\Kafka1\LogLibrary\obj\Debug\netstandard2.0\LogLibrary.csprojAssemblyReference.cache

@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka1", "Kafka1\Kafka1.csproj", "{EB1FE3C0-A218-4E68-A996-6A597D20C7FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8E9EAD95-E620-4112-8087-5CB376F1BE88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{8E9EAD95-E620-4112-8087-5CB376F1BE88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{337BE977-33E5-406F-8F16-5F542F947C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{337BE977-33E5-406F-8F16-5F542F947C21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{CF78FAF1-6101-4EAE-81D9-484C62EDC06B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{CF78FAF1-6101-4EAE-81D9-484C62EDC06B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{66495D62-488C-4A2E-8E3F-0B6599D79E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{66495D62-488C-4A2E-8E3F-0B6599D79E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaPubSub", "KafkaPubSub\KafkaPubSub.csproj", "{0504352B-1EB5-4E00-B94E-2DF97750B8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaPubSub", "KafkaPubSub\KafkaPubSub.csproj", "{0504352B-1EB5-4E00-B94E-2DF97750B8E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
