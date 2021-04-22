@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9pUQtcwnG+LErFTSG7dxb8SjZx/KGShUxvowbev4kmkF5/KMU4wvTVk6u7oPIXsQbOxxCPHlo1MnwiggqExQ8g==",
+  "dgSpecHash": "g6QURWJRlAlndHCR/N+vz5/NJz0PRmAN3UxNdxzkrQ8mD1JOePq6dYkKhcZnMKXgNCsuf2ZlghKhNFJSWVi29w==",
   "success": true,
   "projectFilePath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\KafkaPubSub\\KafkaPubSub.csproj",
   "expectedPackageFiles": [
