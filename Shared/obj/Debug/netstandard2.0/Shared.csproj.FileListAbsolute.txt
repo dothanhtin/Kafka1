@@ -6,4 +6,3 @@ D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.As
 D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.csproj.CoreCompileInputs.cache
 D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.dll
 D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.pdb
-D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.csprojAssemblyReference.cache
