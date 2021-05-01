@@ -3,6 +3,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\dotha\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\dotha\\.nuget\\packages",
+      "F:\\VisualStudio_2019\\MicrosoftVisualStudio\\Shared\\NuGetPackages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
