@@ -23,5 +23,10 @@ namespace Kafka1.Models
                 {nameof(updatedBy),updatedOn }
             };
         }
+
+        public override string objectCollection()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

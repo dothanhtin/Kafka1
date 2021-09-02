@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "p/MPxOZXygRtM+Y9DvekZn2I3ohag/voqgiDWgqgz5LkYrccrf1eohWYHXiUeTOzFFB50lAp9YaJDWeBoNyKlA==",
+  "dgSpecHash": "z0dCk7E/k6QWiLdJMsIIKpyGbsJTOnKo5T4wF3tjBdT5nLx8Umuql28pV97+eFg0FKgr/PIed823J+i0EeoG3A==",
   "success": true,
-  "projectFilePath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj",
+  "projectFilePath": "D:\\SampleCode\\.NET Core\\Kafka_With_netCore\\Kafka1\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dotha\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\mongodb.bson\\2.11.6\\mongodb.bson.2.11.6.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\mongodb.driver\\2.11.6\\mongodb.driver.2.11.6.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\mongodb.driver.core\\2.11.6\\mongodb.driver.core.2.11.6.nupkg.sha512",

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "s7D3XMLG5JdzD0CyAXi0/npTRzsmKpfF9Duj4JPkvZvWRI8lsawO+7122gjn2RnKNRVQ8j73QRgjJK3Jwb1H7w==",
+  "dgSpecHash": "dYpBHf3YH4+fSJRjw0XIs2mtde0ahharZ7c8sE4SI15f4wsOEBT4fSf7wCce9YXwXT5Bf5vYJCBsfWm6VUTa+Q==",
   "success": true,
-  "projectFilePath": "D:\\.NET Core\\Kafka_With_netCore\\Kafka1\\Core\\Core.csproj",
+  "projectFilePath": "D:\\SampleCode\\.NET Core\\Kafka_With_netCore\\Kafka1\\Core\\Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\mongodb.bson\\2.11.6\\mongodb.bson.2.11.6.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
