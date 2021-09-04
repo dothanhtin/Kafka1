@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dYpBHf3YH4+fSJRjw0XIs2mtde0ahharZ7c8sE4SI15f4wsOEBT4fSf7wCce9YXwXT5Bf5vYJCBsfWm6VUTa+Q==",
+  "dgSpecHash": "ti38YSjfVsfHHi21BX0KOt7E+xHgDKNSpQqmRBJ44TfpinmnMWcrLAU2tpyXfrnDQxM0MhVaRRpLiMiAvwSnbA==",
   "success": true,
   "projectFilePath": "D:\\SampleCode\\.NET Core\\Kafka_With_netCore\\Kafka1\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dotha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\dotha\\.nuget\\packages\\mongodb.bson\\2.11.6\\mongodb.bson.2.11.6.nupkg.sha512",
-    "C:\\Users\\dotha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\dotha\\.nuget\\packages\\mongodb.bson\\2.13.1\\mongodb.bson.2.13.1.nupkg.sha512",
+    "C:\\Users\\dotha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dotha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

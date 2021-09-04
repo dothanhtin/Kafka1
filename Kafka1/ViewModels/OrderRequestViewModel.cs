@@ -12,16 +12,33 @@ namespace Kafka1.ViewModels
         public string clientId { get; set; }
         public OrderRequest getObject()
         {
+            var now = DateTime.Now;
+            if (string.IsNullOrEmpty(orderId))
+                orderId = Guid.NewGuid().ToString();
             return new OrderRequest
             {
-                orderId = this.orderId,
+                orderId = orderId,
                 clientId = this.clientId,
-                id = Guid.NewGuid().ToString(),
-                createdOn = DateTime.Now,
+                _id = this.orderId,
+                createdOn = now,
                 createdBy = clientId,
+                updatedOn = now,
+                updatedBy = clientId
+            };
+        }
+        public OrderRequest getUpdateObject()
+        {
+            return new OrderRequest
+            {
+                orderId = orderId,
+                clientId = this.clientId,
                 updatedOn = DateTime.Now,
                 updatedBy = clientId
             };
         }
+    }
+    public class DeleteViewModel
+    {
+        public string id { get; set; }
     }
 }

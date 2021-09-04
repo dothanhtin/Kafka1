@@ -7,3 +7,12 @@ D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.cs
 D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.dll
 D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.pdb
 D:\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.csprojAssemblyReference.cache
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\bin\Debug\netstandard2.0\Shared.deps.json
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\bin\Debug\netstandard2.0\Shared.dll
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\bin\Debug\netstandard2.0\Shared.pdb
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfoInputs.cache
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfo.cs
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.csproj.CoreCompileInputs.cache
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.dll
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Shared\obj\Debug\netstandard2.0\Shared.pdb

@@ -47,7 +47,7 @@
           "dependencies": {
             "MongoDB.Bson": {
               "target": "Package",
-              "version": "[2.11.6, )"
+              "version": "[2.13.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -129,27 +129,27 @@
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
-              "version": "[1.5.3, )"
+              "version": "[1.7.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
-            "Serilog.AspNetCore": {
+            "StackExchange.Redis.Extensions.AspNetCore": {
               "target": "Package",
-              "version": "[3.4.0, )"
+              "version": "[7.1.1, )"
             },
-            "Serilog.Settings.Configuration": {
+            "StackExchange.Redis.Extensions.Core": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[7.1.1, )"
             },
-            "Serilog.Sinks.Network": {
+            "StackExchange.Redis.Extensions.Newtonsoft": {
               "target": "Package",
-              "version": "[2.0.2.68, )"
+              "version": "[7.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.1, )"
             }
           },
           "imports": [
@@ -227,7 +227,7 @@
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
-              "version": "[1.5.3, )"
+              "version": "[1.7.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -300,7 +300,7 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.6, )"
+              "version": "[2.13.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -376,7 +376,7 @@
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
-              "version": "[1.5.3, )"
+              "version": "[1.7.0, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
@@ -390,7 +390,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
             "Serilog": {
               "target": "Package",
@@ -454,13 +454,21 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.6, )"
+              "version": "[2.13.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[7.1.1, )"
             }
           },
           "imports": [

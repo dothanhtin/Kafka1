@@ -9,5 +9,7 @@ namespace KafkaPubSub
     {
         public ProducerConfig producerConfig { get; set; }
         public ConsumerConfig consumerConfig { get; set; }
+        public int status { get; set; }
+        public static KafkaConfig Instance { get; } = new KafkaConfig();
     }
 }
