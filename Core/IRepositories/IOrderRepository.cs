@@ -11,8 +11,8 @@ namespace Core.IRepositories
     {
         Task<string> createOrder(OrderRequest orderRequest, CancellationToken cancellationToken);
         Task<string> updateOrder(OrderRequest orderRequest, CancellationToken cancellationToken);
-        Task<string> deleteOrder(string id, CancellationToken cancellationToken);
-        Task<OrderRequest> getOrderById(string id, CancellationToken cancellationToken);
+        Task<string> deleteOrder(string orderId, CancellationToken cancellationToken);
+        Task<OrderRequest> getOrderById(string orderId, CancellationToken cancellationToken);
         Task<List<OrderRequest>> getAllOrder(CancellationToken cancellationToken);
     }
 }

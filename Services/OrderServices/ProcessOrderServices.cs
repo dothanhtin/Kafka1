@@ -26,14 +26,14 @@ namespace Services.OrderServices
             var res = await _orderRepository.updateOrder(orderRequest, cancellationToken);
             return res;
         }
-        public async Task<string> DeleteOrderAsync(string id, CancellationToken cancellationToken)
+        public async Task<string> DeleteOrderAsync(string orderId, CancellationToken cancellationToken)
         {
-            var res = await _orderRepository.deleteOrder(id, cancellationToken);
+            var res = await _orderRepository.deleteOrder(orderId, cancellationToken);
             return res;
         }
-        public async Task<OrderRequest> GetOrderById(string id, CancellationToken cancellationToken)
+        public async Task<OrderRequest> GetOrderById(string orderId, CancellationToken cancellationToken)
         {
-            var res = await _orderRepository.getOrderById(id, cancellationToken);
+            var res = await _orderRepository.getOrderById(orderId, cancellationToken);
             return res;
         }
         public async Task<List<OrderRequest>> GetAllOrderAsync(CancellationToken cancellationToken)

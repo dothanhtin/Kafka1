@@ -11,8 +11,8 @@ namespace Core.IServices.IOrderServices
     {
         Task<string> CreateOrderAsync(OrderRequest orderRequest, CancellationToken cancellationToken);
         Task<string> UpdateOrderAsync(OrderRequest orderRequest, CancellationToken cancellationToken);
-        Task<string> DeleteOrderAsync(string id, CancellationToken cancellationToken);
-        Task<OrderRequest> GetOrderById(string id, CancellationToken cancellationToken);
+        Task<string> DeleteOrderAsync(string orderId, CancellationToken cancellationToken);
+        Task<OrderRequest> GetOrderById(string orderId, CancellationToken cancellationToken);
         Task<List<OrderRequest>> GetAllOrderAsync(CancellationToken cancellationToken);
     }
 }

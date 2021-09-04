@@ -48,7 +48,7 @@ namespace Kafka1.Controllers
             {
                 case (int)EnumExtension.KafkaStatus.enable:
                     //Send with Kafka
-                    var producer = new ProducerWrapper(this._producerConfig, KafkaHelper.orderRequestTopic, model.id);
+                    var producer = new ProducerWrapper(this._producerConfig, KafkaHelper.orderRequestTopic, model.orderId);
                     var res = await producer.writeMessage(serializedOrder);
                     if (!string.IsNullOrEmpty(res))
                     {
@@ -85,8 +85,10 @@ namespace Kafka1.Controllers
             ApiResponse result = new ApiResponse((int)EnumExtension.ApiCodeResponse.error, messageDefault);
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
+            if (string.IsNullOrEmpty(orderRequest.orderId))
+                return BadRequest(new ApiResponse((int)EnumExtension.ApiCodeResponse.error, "Parameters is invalid!"));
             //Serialize 
-            var model = orderRequest.getObject();
+            var model = orderRequest.getUpdateObject();
             string serializedOrder = JsonConvert.SerializeObject(model);
             switch (KafkaConfig.Instance.status)
             {
@@ -120,6 +122,8 @@ namespace Kafka1.Controllers
             ApiResponse result = new ApiResponse((int)EnumExtension.ApiCodeResponse.error, messageDefault);
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
+            if (string.IsNullOrEmpty(deleteViewModel.id))
+                return BadRequest(new ApiResponse((int)EnumExtension.ApiCodeResponse.error, "Parameters is invalid!"));
             switch (KafkaConfig.Instance.status)
             {
                 case (int)EnumExtension.KafkaStatus.enable:

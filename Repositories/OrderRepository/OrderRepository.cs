@@ -32,7 +32,7 @@ namespace Repositories.OrderRepository
                 var doc = orderRequest.getBsonObject();
                 await col.InsertOneAsync(doc);
 
-                return orderRequest.id;
+                return orderRequest.orderId;
             }
             catch (Exception ex)
             {
@@ -49,10 +49,19 @@ namespace Repositories.OrderRepository
             try
             {
                 var col = _db.GetCollection<BsonDocument>("testModelCollection");
-                var doc = orderRequest.getBsonObject();
-                var filter = Builders<BsonDocument>.Filter.Eq("id", orderRequest.id);
-                await col.UpdateOneAsync(filter, doc);
-                return orderRequest.id;
+                #region using with replace
+                //var doc = orderRequest.getBsonObject();
+                //var filter = Builders<BsonDocument>.Filter.Eq("orderId", orderRequest.orderId);
+                //await col.ReplaceOneAsync(filter, doc);
+                #endregion
+                #region update with update
+                var filter = Builders<BsonDocument>.Filter.Eq("orderId", orderRequest.orderId);
+                var update = Builders<BsonDocument>.Update.Set("clientId", orderRequest.clientId)
+                                                           .Set("updatedBy", orderRequest.updatedBy)
+                                                           .Set("updatedOn", orderRequest.updatedOn);
+                await col.UpdateOneAsync(filter, update);
+                #endregion
+                return orderRequest.orderId;
             }
             catch (Exception ex)
             {
@@ -62,16 +71,16 @@ namespace Repositories.OrderRepository
         /// <summary>
         /// Delete order
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="orderId"></param>
         /// <returns></returns>
-        public async Task<string> deleteOrder(string id, CancellationToken cancellationToken)
+        public async Task<string> deleteOrder(string orderId, CancellationToken cancellationToken)
         {
             try
             {
                 var col = _db.GetCollection<BsonDocument>("testModelCollection");
-                var filter = Builders<BsonDocument>.Filter.Eq("id", id);
+                var filter = Builders<BsonDocument>.Filter.Eq("orderId", orderId);
                 await col.DeleteOneAsync(filter);
-                return id;
+                return orderId;
             }
             catch (Exception ex)
             {
@@ -81,19 +90,18 @@ namespace Repositories.OrderRepository
         /// <summary>
         /// Get by Id
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="orderId"></param>
         /// <returns></returns>
-        public async Task<OrderRequest> getOrderById(string id, CancellationToken cancellationToken)
+        public async Task<OrderRequest> getOrderById(string orderId, CancellationToken cancellationToken)
         {
             try
             {
-                var col = _db.GetCollection<BsonDocument>("testModelCollection");
-                var filter = Builders<BsonDocument>.Filter.Eq("id", id);
-                var value = await col.FindAsync(filter);
-                var res = BsonSerializer.Deserialize<OrderRequest>(value.ToBsonDocument());
-                //test
-                // return (OrderRequest)value;
+                var col = _db.GetCollection<OrderRequest>("testModelCollection");
+                //var filter = Builders<BsonDocument>.Filter.Eq("orderId", orderId);
+                var value = await col.FindAsync(s => s.orderId == orderId);
+                var res = value.FirstOrDefault();
                 return res;
+                //return BsonSerializer.Deserialize<OrderRequest>(res);
             }
             catch (Exception ex)
             {
@@ -104,12 +112,12 @@ namespace Repositories.OrderRepository
         {
             try
             {
-                var col = _db.GetCollection<BsonDocument>("testModelCollection");
-                var value = await col.FindAsync(new BsonDocument());
-                var res = BsonSerializer.Deserialize<List<OrderRequest>>(value.ToBsonDocument());
+                var col = _db.GetCollection<OrderRequest>("testModelCollection");
+                var value = await col.FindAsync(s => !string.IsNullOrEmpty(s.orderId));
+                var res = value.ToList();
                 return res;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return null;
             }

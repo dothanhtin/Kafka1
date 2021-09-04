@@ -49,7 +49,7 @@ namespace Services.EventHandler.OrderServices
                     order = JsonConvert.DeserializeObject<OrderRequest>(orderRequest);
 
                     //TODO:: Process Order
-                    Debug.WriteLine($"Info: OrderHandler => Processing the order for {order.id}");
+                    Debug.WriteLine($"Info: OrderHandler => Processing the order for {order.orderId}");
                     //Write to database
                     await _orderRepository.createOrder(order, stoppingToken);
                 }

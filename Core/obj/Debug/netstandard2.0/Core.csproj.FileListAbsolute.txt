@@ -16,4 +16,3 @@ D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Core\obj\Debug\netstandard2.0\
 D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
 D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Core\obj\Debug\netstandard2.0\Core.dll
 D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Core\obj\Debug\netstandard2.0\Core.pdb
-D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\Core\obj\Debug\netstandard2.0\Core.csproj.AssemblyReference.cache
