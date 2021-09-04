@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uQmMnKBv4T7JMmVgwSkqjwei2Ew4suJQIxeZ/lFDi0Een1ZeVh+E4zebbAa+BOOHnaLSVNLzKndPVb3eQR++cw==",
+  "dgSpecHash": "+ER79x/of/exuISRIcTS/wlSTsv8b9X7IG1Tqz4WqiXJpfpVujPFQFRsj+FnqqrbJe/s0BkFOc6NhOA+r4EYmg==",
   "success": true,
   "projectFilePath": "D:\\SampleCode\\.NET Core\\Kafka_With_netCore\\Kafka1\\Kafka1\\Kafka1.csproj",
   "expectedPackageFiles": [
@@ -127,10 +127,7 @@
     "C:\\Users\\dotha\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\dotha\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512",
-    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\dotha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
   ],
   "logs": []
 }
