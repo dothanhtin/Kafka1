@@ -8,20 +8,25 @@ namespace Kafka1.ViewModels
 {
     public class OrderRequestViewModel
     {
-        public string orderId { get; set; }
+        public string id { get; set; }
         public string clientId { get; set; }
         public OrderRequest getObject()
         {
+            if (string.IsNullOrEmpty(id))
+                id = Guid.NewGuid().ToString();
             return new OrderRequest
             {
-                orderId = this.orderId,
                 clientId = this.clientId,
-                id = Guid.NewGuid().ToString(),
+                id = this.id,
                 createdOn = DateTime.Now,
                 createdBy = clientId,
                 updatedOn = DateTime.Now,
                 updatedBy = clientId
             };
         }
+    }
+    public class DeleteViewModel
+    {
+        public string id { get; set; }
     }
 }

@@ -10,3 +10,16 @@ D:\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\Kafk
 D:\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.csproj.CopyComplete
 D:\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.dll
 D:\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.pdb
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\bin\Debug\netstandard2.0\KafkaPubSub.deps.json
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\bin\Debug\netstandard2.0\KafkaPubSub.dll
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\bin\Debug\netstandard2.0\KafkaPubSub.pdb
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\bin\Debug\netstandard2.0\Shared.dll
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\bin\Debug\netstandard2.0\Shared.pdb
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.csproj.AssemblyReference.cache
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.GeneratedMSBuildEditorConfig.editorconfig
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.AssemblyInfoInputs.cache
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.AssemblyInfo.cs
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.csproj.CoreCompileInputs.cache
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.dll
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.pdb
+D:\SampleCode\.NET Core\Kafka_With_netCore\Kafka1\KafkaPubSub\obj\Debug\netstandard2.0\KafkaPubSub.csproj.CopyComplete

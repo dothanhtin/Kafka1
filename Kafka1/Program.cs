@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
-using Serilog.Sinks.Network;
+//using Serilog.Sinks.Network;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,14 +15,14 @@ namespace Kafka1
     {
         public static void Main(string[] args)
         {
-            Log.Logger = new LoggerConfiguration()
-                .WriteTo.TCPSink("tcp://10.70.122.42", 4560).CreateLogger();
+            ////Log.Logger = new LoggerConfiguration()
+            ////    .WriteTo.TCPSink("tcp://10.70.122.42", 4560).CreateLogger();
             CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseSerilog()
+                //.UseSerilog()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

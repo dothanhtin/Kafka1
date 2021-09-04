@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Core/1.0.0": {
         "dependencies": {
-          "MongoDB.Bson": "2.11.6",
+          "MongoDB.Bson": "2.13.1",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -17,17 +17,28 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "MongoDB.Bson/2.11.6": {
+      "MongoDB.Bson/2.13.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
         "runtime": {
           "lib/netstandard2.0/MongoDB.Bson.dll": {
-            "assemblyVersion": "2.11.6.0",
-            "fileVersion": "2.11.6.0"
+            "assemblyVersion": "2.13.1.0",
+            "fileVersion": "2.13.1.0"
           }
         }
       },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
         }
       }
     }
@@ -45,12 +56,12 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "MongoDB.Bson/2.11.6": {
+    "MongoDB.Bson/2.13.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JMxPQvz61IW+AFDWEkl4Dwswc4Eg6Zrii65T9R6VMHwdSdcb1eseHdwIyfjyf776vCmDVJbpSHW8075A6tTqqg==",
-      "path": "mongodb.bson/2.11.6",
-      "hashPath": "mongodb.bson.2.11.6.nupkg.sha512"
+      "sha512": "sha512-B/AI2we7YwfFuNcXr4jlCnVI5dJp+g8vkyj3Shi/bOpGhZQaxW4jK/NiiTwYvqxaMOe4MtVR+6Zlk4D2zalC7A==",
+      "path": "mongodb.bson/2.13.1",
+      "hashPath": "mongodb.bson.2.13.1.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
@@ -58,6 +69,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
     }
   }
 }
